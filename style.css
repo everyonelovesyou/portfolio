@@ -11,3 +11,63 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+header {
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.nav-link.disabled{
+	padding: 0;
+}
+h1.ttl {
+	font-size: 24px;
+}
+
+.nav-tabs .nav-link {
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	padding-bottom: 0.75rem;
+}
+
+.tab-text {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.tab-text >* {
+	align-items: center;
+}
+
+.section-ttl {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.section-ttl::before {
+	content: attr(data-en);
+	display: block;
+	color: #e04272;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+#home .card-body .desc span.tag {
+  background-color: #fcf5ed;
+  border-radius: .25rem;
+  padding: .25em .5em;
+  margin-right: .25em;
+}
+
+#about .prof-img {
+	width: 5rem;
+}
+
+#about p > span,
+#about li > span {
+	display: inline-block;
+}
+
