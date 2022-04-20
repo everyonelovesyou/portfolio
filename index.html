@@ -33,28 +33,28 @@
 </head>
 <body>
 	<header class="container-fluid pt-3 px-0">
-		<div class="container-md">
-			<nav class="nav nav-tabs nav-fill border-bottom-0" id="nav-tab" role="tablist">
+		<div class="container px-3">
+			<nav class="nav nav-tabs border-bottom-0" id="nav-tab" role="tablist">
 
-				<div class="nav-link disabled"  data-bs-toggle="tab" aria-controls="nav-disabled" tabindex="-1" aria-disabled="true">
+				<div class="nav-link disabled p-0 me-auto">
 					<h1 class="ttl">Portfolio</h1>
 				</div>
 				<a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
 					<div class="tab-text-wrapper">
 						<span class="material-icons-round">home</span>
-						<span class="tab-text">HOME</span>
+						<span class="d-none d-sm-block">HOME</span>
 					</div>
 				</a>
 				<a class="nav-link" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">
 					<div class="tab-text-wrapper">
 						<span class="material-icons-round">person</span>
-						<span class="tab-text">ABOUT</span>
+						<span class="d-none d-sm-block">ABOUT</span>
 					</div>
 				</a>
 				<a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
 					<div class="tab-text-wrapper">
 						<span class="material-icons-round">mail_outline</span>
-						<span class="tab-text">CONTACT</span>
+						<span class="d-none d-sm-block">CONTACT</span>
 					</div>
 				</a>
 
@@ -162,9 +162,10 @@
 						<span>視覚的なもの、目で見て感じられる <b>“可愛い”</b> が好きです。</span>
 						<br>
 						<span>現在は、地元のSIerでパートタイマーとして、</span>
-						<span>デザインやコーディング、ライティングから、</span>
-						<span>ECサイトの更新、システム開発に携わるなど、幅広い業務のお手伝いをしております。</span>
+						<span>デザインやコーディング、ライティングを始めとし、ECサイトの更新や システム開発に携わるなど、幅広い業務のお手伝いをしております。</span>
 					</p>
+
+          <hr class="m-5">
 					<p>
 						お客様のお悩みを解決するための一番最適な手段を導き出すことが得意です。
 						<br>
@@ -179,15 +180,18 @@
 					<hr class="m-5">
 					<p>
 						目的のための仕組みを作ることがとても好きです。
-						<ul>
-							<li>
-								<span>Googleカレンダーと他のカレンダー共有サービス間で、</span>
-								<span>Google Apps Scriptとサービス提供のAPIを利用して連携</span>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">
+								<span>Googleカレンダーと他のカレンダー共有サービス間で、Google Apps Script</span>
+								<span>とサービス提供のAPIを利用して連携</span>
 							</li>
-							<li>自分用に地域の福祉バス情報アプリをGlideで作成</li>
-							<li>
-								<span>通信試験添削サービスの</span>
-								<span>運営用システムをMicrosoft Accessで作成</span>
+							<li class="list-group-item">
+                <span>自分用に地域の福祉バス情報アプリを</span>
+								<span>Glide</span>
+								<span>で作成</span>
+              </li>
+							<li class="list-group-item">
+								通信試験添削サービスの運営用システムを Microsoft Access で作成
 							</li>
 						</ul>
 					</p>
@@ -195,6 +199,8 @@
 			</div>
 
 			<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <section class="p-2 mt-5">
+					<h2 class="section-ttl" data-en="CONTACT ME">お問い合わせ</h2>
 				<p>ちょとまてね、お急ぎの方は everyonelovesyou あっと ymail.ne.jp までご連絡ください</p>
 			</div>
 		</div>
